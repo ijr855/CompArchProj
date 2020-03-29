@@ -11,6 +11,9 @@
     <OutputPath>.</OutputPath>
     <Name>CompArchWork</Name>
     <RootNamespace>CompArchWork</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>–f trace1.txt –s 1024 –b 16 –a 2 –r RR</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
